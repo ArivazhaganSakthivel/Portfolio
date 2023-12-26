@@ -1,0 +1,53 @@
+.experience {
+   .top {
+      padding: 10px;
+   }
+
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   .container {
+      display: flex;
+      background: rgb(243, 246, 243);
+      width: 70%;
+      height: 80%;
+      box-shadow: 15px 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      .firstPart {
+         width: 30%;
+         border-radius: 5px;
+         box-shadow: 15px 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         background-color: white;
+         display: flex;
+
+         .side {
+            width: 15%;
+            height: 100%;
+            background-color: black;
+         }
+
+         .tbs {
+            width: 85%;
+         }
+      }
+
+      .secondPart {
+         width: 100%;
+         padding: 20px;
+      }
+   }
+}
+
+@media(max-width:800px) {
+   .experience {
+      .container{
+         width: 95%;
+         .firstPart{
+            width: 23%;
+         }
+      }
+   }
+}
